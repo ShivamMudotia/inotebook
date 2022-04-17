@@ -1,0 +1,5 @@
+
+Mongo Connection string ->  mongodb://localhost:27017/?readPreference=primary&ssl=false
+
+./node_modules/nodemon/bin/nodemon.js ./index.js 
+
