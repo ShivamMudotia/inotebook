@@ -63,7 +63,7 @@ router.post(
   }
 );
 
-// ROUTE 2  - Authenticate a user using POST - "/api/post/login"
+// ROUTE 2  - Authenticate a user using POST and get auth-token as response- "/api/post/login"
 
 router.post(
   "/login",
