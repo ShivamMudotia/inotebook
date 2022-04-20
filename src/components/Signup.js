@@ -5,7 +5,8 @@ import {useNavigate} from "react-router-dom"
 
 const Signup = (props) => {
 
-  const host = "http://localhost:4000";
+  //const host = "http://localhost:4000";
+  const host = process.env.REACT_APP_BACKEND_HOST
   const [credentials, setCredentials] = useState({ name: "", email: "", password: "", cpassword: "" });
 
   let navigate = useNavigate();

@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Login = (props) => {
-  const host = "http://localhost:4000";
+  //const host = "http://localhost:4000";
+  const host = process.env.REACT_APP_BACKEND_HOST
   const [credentials, setCredentials] = useState({ email: "", password: "" });
 
   let navigate = useNavigate();
